@@ -1,0 +1,3 @@
+[2022-08-02 22:20:22.972] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2022-08-02 22:20:24.704] [main] [info] Starting extension host with pid 1577 (fork() took 9 ms).
+[2022-08-03 07:30:43.664] [main] [error] CodeWindow: renderer process crashed (reason: killed, code: 15)

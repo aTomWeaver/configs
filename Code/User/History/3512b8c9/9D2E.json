@@ -1,0 +1,37 @@
+{
+    "workbench.colorTheme": "Monokai Pro",
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "files.autoSave": "afterDelay",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "window.menuBarVisibility": "toggle",
+    "liveServer.settings.CustomBrowser": "chromium",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.sideBar.location": "right",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "editor.fontFamily": "'Hack', 'Source Code Pro Semibold', monospace",
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "telemetry.telemetryLevel": "off",
+    "terminal.external.linuxExec": "alacritty",
+    "customizeUI.font.regular": "Noto Sans",
+    "customizeUI.font.monospace": "Hack",
+    "editor.fontSize": 15,
+    "keyboard.dispatch": "keyCode",
+    "tabout.disableByDefault": true,
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "glassit.alpha": 230,
+    "editor.lineNumbers":"relative",
+}

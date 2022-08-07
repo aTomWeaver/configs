@@ -1,0 +1,71 @@
+[2022-08-06 23:57:12.322] [sharedprocess] [info] Starting worker process with pid 1885 (type: fileWatcher, window: 1).
+[2022-08-07 08:45:24.059] [sharedprocess] [info] Worker process with pid 1885 terminated normally (type: fileWatcher, window: 1).
+[2022-08-07 08:45:25.055] [sharedprocess] [info] Starting worker process with pid 8662 (type: fileWatcher, window: 1).
+[2022-08-07 08:50:23.139] [sharedprocess] [info] Worker process with pid 8662 terminated normally (type: fileWatcher, window: 1).
+[2022-08-07 08:50:24.070] [sharedprocess] [info] Starting worker process with pid 9046 (type: fileWatcher, window: 1).
+[2022-08-07 09:26:14.088] [sharedprocess] [info] Uninstalling extension: asvetliakov.vscode-neovim@0.0.89
+[2022-08-07 09:26:14.298] [sharedprocess] [info] Detected extension removed from another source asvetliakov.vscode-neovim
+[2022-08-07 09:26:14.304] [sharedprocess] [info] Successfully uninstalled extension: asvetliakov.vscode-neovim@0.0.89
+[2022-08-07 09:26:19.617] [sharedprocess] [info] Getting Manifest... vscodevim.vim
+[2022-08-07 09:26:19.623] [sharedprocess] [info] Installing extension: vscodevim.vim
+[2022-08-07 09:26:19.851] [sharedprocess] [info] Downloaded extension: vscodevim.vim /home/tom/.config/Code/CachedExtensionVSIXs/vscodevim.vim-1.23.2
+[2022-08-07 09:26:20.089] [sharedprocess] [info] Extracted extension to /home/tom/.vscode/extensions/.5d9ee97f-896e-46c3-a3ee-41afc8eb1234: vscodevim.vim
+[2022-08-07 09:26:20.097] [sharedprocess] [info] Renamed to /home/tom/.vscode/extensions/vscodevim.vim-1.23.2
+[2022-08-07 09:26:20.102] [sharedprocess] [info] Extracting completed. vscodevim.vim
+[2022-08-07 09:26:20.104] [sharedprocess] [info] Extension installed successfully: vscodevim.vim
+[2022-08-07 09:27:36.993] [sharedprocess] [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'then'): TypeError: Cannot read properties of undefined (reading 'then')
+    at onPromise (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:4990)
+    at onRawMessage (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:4283)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:3564
+    at S.invoke (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:145)
+    at m.deliver (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:2266)
+    at w.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:1844)
+    at MessagePort.Z (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:17:23629)
+[2022-08-07 09:27:40.508] [sharedprocess] [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'then'): TypeError: Cannot read properties of undefined (reading 'then')
+    at onPromise (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:4990)
+    at onRawMessage (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:4283)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:3564
+    at S.invoke (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:145)
+    at m.deliver (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:2266)
+    at w.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:1844)
+    at MessagePort.Z (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:17:23629)
+[2022-08-07 09:34:15.383] [sharedprocess] [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'then'): TypeError: Cannot read properties of undefined (reading 'then')
+    at onPromise (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:4990)
+    at onRawMessage (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:4283)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:3564
+    at S.invoke (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:145)
+    at m.deliver (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:2266)
+    at w.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:1844)
+    at MessagePort.Z (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:17:23629)
+[2022-08-07 09:34:28.276] [sharedprocess] [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'then'): TypeError: Cannot read properties of undefined (reading 'then')
+    at onPromise (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:4990)
+    at onRawMessage (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:4283)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:3564
+    at S.invoke (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:145)
+    at m.deliver (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:2266)
+    at w.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:1844)
+    at MessagePort.Z (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:17:23629)
+[2022-08-07 09:34:39.079] [sharedprocess] [info] Getting Manifest... vscodevim.vim
+[2022-08-07 09:34:39.550] [sharedprocess] [info] Installing extension: vscodevim.vim
+[2022-08-07 09:34:40.942] [sharedprocess] [info] Downloaded extension: vscodevim.vim /home/tom/.config/Code/CachedExtensionVSIXs/vscodevim.vim-1.11.1
+[2022-08-07 09:34:41.097] [sharedprocess] [info] Extracted extension to /home/tom/.vscode/extensions/.5165d816-a9b4-4baa-b89a-f1fd6f9deaf8: vscodevim.vim
+[2022-08-07 09:34:41.112] [sharedprocess] [info] Renamed to /home/tom/.vscode/extensions/vscodevim.vim-1.11.1
+[2022-08-07 09:34:41.117] [sharedprocess] [info] Extracting completed. vscodevim.vim
+[2022-08-07 09:34:41.125] [sharedprocess] [info] Extension installed successfully: vscodevim.vim
+[2022-08-07 09:34:43.595] [sharedprocess] [info] Worker process with pid 9046 terminated normally (type: fileWatcher, window: 1).
+[2022-08-07 09:34:44.848] [sharedprocess] [info] Starting worker process with pid 11885 (type: fileWatcher, window: 1).
+[2022-08-07 09:35:48.593] [sharedprocess] [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'then'): TypeError: Cannot read properties of undefined (reading 'then')
+    at onPromise (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:4990)
+    at onRawMessage (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:4283)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:3564
+    at S.invoke (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:145)
+    at m.deliver (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:2266)
+    at w.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:1844)
+    at MessagePort.Z (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:17:23629)
+[2022-08-07 09:35:49.749] [sharedprocess] [info] Getting Manifest... vscodevim.vim
+[2022-08-07 09:35:49.754] [sharedprocess] [info] Installing extension: vscodevim.vim
+[2022-08-07 09:35:50.100] [sharedprocess] [info] Downloaded extension: vscodevim.vim /home/tom/.config/Code/CachedExtensionVSIXs/vscodevim.vim-1.23.2
+[2022-08-07 09:35:50.141] [sharedprocess] [info] Removed the extension from uninstalled list: vscodevim.vim
+[2022-08-07 09:35:50.152] [sharedprocess] [info] Extension installed successfully: vscodevim.vim
+[2022-08-07 09:35:51.622] [sharedprocess] [info] Worker process with pid 11885 terminated normally (type: fileWatcher, window: 1).
+[2022-08-07 09:35:52.902] [sharedprocess] [info] Starting worker process with pid 12073 (type: fileWatcher, window: 1).

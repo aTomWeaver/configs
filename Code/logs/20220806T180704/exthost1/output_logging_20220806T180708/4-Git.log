@@ -1,0 +1,22 @@
+[2022-08-06T22:07:09.972Z] Log level: Info
+[2022-08-06T22:07:09.973Z] [info] Validating found git in: git
+[2022-08-06T22:07:10.017Z] [info] Using git 2.37.1 from git
+[2022-08-06T22:07:10.059Z] > git rev-parse --show-toplevel [3ms]
+[2022-08-06T22:07:10.152Z] > git rev-parse --git-dir --git-common-dir [60ms]
+[2022-08-06T22:07:10.208Z] [info] Open repository: /home/tom/Code/TOP/battleship
+[2022-08-06T22:07:10.265Z] > git status -z -uall [26ms]
+[2022-08-06T22:07:10.280Z] > git symbolic-ref --short HEAD [2ms]
+[2022-08-06T22:07:10.302Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+[2022-08-06T22:07:10.361Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [36ms]
+[2022-08-06T22:07:10.385Z] > git remote --verbose [30ms]
+[2022-08-06T22:07:10.424Z] > git config --get commit.template [0ms]
+[2022-08-06T22:07:10.446Z] > git status -z -uall [0ms]
+[2022-08-06T22:07:11.223Z] > git symbolic-ref --short HEAD [749ms]
+[2022-08-06T22:07:11.279Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+[2022-08-06T22:07:11.322Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [24ms]
+[2022-08-06T22:07:11.324Z] > git remote --verbose [5ms]
+[2022-08-06T22:07:11.345Z] > git config --get commit.template [9ms]
+[2022-08-06T22:07:11.747Z] > git check-ignore -v -z --stdin [4ms]
+[2022-08-06T22:07:12.574Z] > git show --textconv :src/gameLoop.js [543ms]
+[2022-08-06T22:07:12.575Z] > git ls-files --stage -- /home/tom/Code/TOP/battleship/src/gameLoop.js [505ms]
+[2022-08-06T22:07:12.643Z] > git cat-file -s 9edcabbbeec49427e8a069a8463774c7e8475ef5 [42ms]

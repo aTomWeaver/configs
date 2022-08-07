@@ -1,0 +1,42 @@
+[2022-08-06 18:07:08.038] [exthost] [info] Extension host with pid 40359 started
+[2022-08-06 18:07:08.038] [exthost] [info] Skipping acquiring lock for /home/tom/.config/Code/User/workspaceStorage/0f7509f6c456abaf24ba71dc59e554ca.
+[2022-08-06 18:07:08.603] [exthost] [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+[2022-08-06 18:07:08.606] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-08-06 18:07:08.624] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-08-06 18:07:08.662] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-06 18:07:08.668] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-06 18:07:08.681] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-06 18:07:08.683] [exthost] [info] ExtensionService#_doActivateExtension albert.TabOut, startup: true, activationEvent: '*'
+[2022-08-06 18:07:08.685] [exthost] [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: true, activationEvent: '*'
+[2022-08-06 18:07:08.715] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.test-adapter-converter, startup: true, activationEvent: '*', root cause: hbenl.vscode-test-explorer
+[2022-08-06 18:07:08.717] [exthost] [info] ExtensionService#_doActivateExtension iocave.monkey-patch, startup: true, activationEvent: '*', root cause: iocave.customize-ui
+[2022-08-06 18:07:08.733] [exthost] [info] ExtensionService#_doActivateExtension monokai.theme-monokai-pro-vscode, startup: true, activationEvent: '*'
+[2022-08-06 18:07:08.747] [exthost] [info] ExtensionService#_doActivateExtension WallabyJs.quokka-vscode, startup: true, activationEvent: '*'
+[2022-08-06 18:07:08.750] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2022-08-06 18:07:09.363] [exthost] [error] Activating extension monokai.theme-monokai-pro-vscode failed due to an error:
+[2022-08-06 18:07:09.363] [exthost] [error] TypeError: this.isValidLicense is not a function
+	at e.get (/home/tom/.vscode/extensions/monokai.theme-monokai-pro-vscode-1.1.20/js/app.js:1268:29)
+	at e.value (/home/tom/.vscode/extensions/monokai.theme-monokai-pro-vscode-1.1.20/js/app.js:1432:30)
+	at e.value (/home/tom/.vscode/extensions/monokai.theme-monokai-pro-vscode-1.1.20/js/app.js:1360:28)
+	at exports.activate (/home/tom/.vscode/extensions/monokai.theme-monokai-pro-vscode-1.1.20/js/main.js:7:6)
+	at Function._callActivateOptional (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:17473)
+	at Function._callActivate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:17131)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:14942
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async v._activate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:8180)
+	at async v._waitForDepsThenActivate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:8122)
+	at async v._initialize (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:7486)
+[2022-08-06 18:07:09.592] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-06 18:07:09.650] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-06 18:07:09.652] [exthost] [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer, startup: true, activationEvent: '*'
+[2022-08-06 18:07:09.698] [exthost] [info] ExtensionService#_doActivateExtension iocave.customize-ui, startup: true, activationEvent: '*'
+[2022-08-06 18:07:10.491] [exthost] [info] ExtensionService#_doActivateExtension kavod-io.vscode-jest-test-adapter, startup: true, activationEvent: '*'
+[2022-08-06 18:07:11.402] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-08-06 18:07:11.423] [exthost] [info] Eager extensions activated
+[2022-08-06 18:07:12.070] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-06 18:07:12.075] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-06 18:07:12.076] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-06 18:07:12.150] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-06 18:07:12.241] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-06 18:11:01.455] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-06 18:11:01.496] [exthost] [info] Extension host with pid 40359 exiting with code 0

@@ -1,0 +1,1796 @@
+Running tests for 'my-webpack-project'
+
+  console.log
+    You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+  console.log
+    All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+PASS src/tests/gameboardFactory.test.js
+  ✓ spaces can receive a hit once and pass it to the ship (25 ms)
+  ○ skipped generates a blank gameboard
+  ○ skipped gameboard can place a ship
+  ○ skipped cannot place ship with inadequate space
+  ○ skipped cannot place a ship on top of an existing ship
+  ○ skipped reports whether or not all ships have sunk
+
+Test Suites: 1 passed, 1 total
+Tests:       5 skipped, 1 passed, 6 total
+Snapshots:   0 total
+Time:        0.927 s
+Ran all test suites matching /\/home\/tom\/Code\/TOP\/battleship\/src\/tests\/gameboardFactory\.test\.js/i with tests matching "^spaces can receive a hit once and pass it to the ship$".
+Running tests for 'my-webpack-project'
+
+  console.log
+    You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+  console.log
+    All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+PASS src/tests/player.test.js
+  ✓ Player can hit a space (24 ms)
+  ✓ Player object tracks misses
+
+Test Suites: 1 passed, 1 total
+Tests:       2 passed, 2 total
+Snapshots:   0 total
+Time:        0.443 s
+Ran all test suites matching /\/home\/tom\/Code\/TOP\/battleship\/src\/tests\/player\.test\.js/i with tests matching "^".
+Running tests for 'my-webpack-project'
+
+  console.log
+    You sank the submarine!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+PASS src/tests/shipFactory.test.js
+  ✓ ship type sets correct length (2 ms)
+  ✓ ship objects updates hits with successful hit call (1 ms)
+  ✓ ship sinks when all positions are hit (18 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       3 passed, 3 total
+Snapshots:   0 total
+Time:        0.41 s
+Ran all test suites matching /\/home\/tom\/Code\/TOP\/battleship\/src\/tests\/shipFactory\.test\.js/i with tests matching "^".
+Running tests for 'my-webpack-project'
+
+  console.log
+    You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+  console.log
+    All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+  console.log
+    You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+  console.log
+    [
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: 'submarine', isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: 'submarine', isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: 'submarine', isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: 'destroyer', isHit: true },
+      { ship: 'destroyer', isHit: true },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false }
+    ]
+
+      at Object.log (src/tests/gameboardFactory.test.js:59:11)
+
+  console.log
+    You sank the submarine!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+  console.log
+    All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+PASS src/tests/gameboardFactory.test.js
+  ✓ generates a blank gameboard (8 ms)
+  ✓ gameboard can place a ship
+  ✓ spaces can receive a hit once and pass it to the ship (22 ms)
+  ✓ cannot place ship with inadequate space (1 ms)
+  ✓ cannot place a ship on top of an existing ship
+  ✓ reports whether or not all ships have sunk (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       6 passed, 6 total
+Snapshots:   0 total
+Time:        0.371 s, estimated 1 s
+Ran all test suites matching /\/home\/tom\/Code\/TOP\/battleship\/src\/tests\/gameboardFactory\.test\.js/i with tests matching "^".
+Running tests for 'my-webpack-project'
+
+  console.log
+    You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+  console.log
+    All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+PASS src/tests/player.test.js
+  ✓ Player can hit a space (25 ms)
+  ✓ Player object tracks misses
+
+Test Suites: 1 passed, 1 total
+Tests:       2 passed, 2 total
+Snapshots:   0 total
+Time:        0.351 s, estimated 1 s
+Ran all test suites matching /\/home\/tom\/Code\/TOP\/battleship\/src\/tests\/player\.test\.js/i with tests matching "^".
+Running tests for 'my-webpack-project'
+
+  console.log
+    You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+  console.log
+    [
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: 'submarine', isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: 'submarine', isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: 'submarine', isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: 'destroyer', isHit: true },
+      { ship: 'destroyer', isHit: true },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false }
+    ]
+
+      at Object.log (src/tests/gameboardFactory.test.js:59:11)
+
+  console.log
+    You sank the submarine!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+  console.log
+    All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+PASS src/tests/gameboardFactory.test.js
+  ✓ reports whether or not all ships have sunk (37 ms)
+  ○ skipped generates a blank gameboard
+  ○ skipped gameboard can place a ship
+  ○ skipped spaces can receive a hit once and pass it to the ship
+  ○ skipped cannot place ship with inadequate space
+  ○ skipped cannot place a ship on top of an existing ship
+
+Test Suites: 1 passed, 1 total
+Tests:       5 skipped, 1 passed, 6 total
+Snapshots:   0 total
+Time:        0.358 s, estimated 1 s
+Ran all test suites matching /\/home\/tom\/Code\/TOP\/battleship\/src\/tests\/gameboardFactory\.test\.js/i with tests matching "^reports whether or not all ships have sunk$".
+Running tests for 'my-webpack-project'
+
+  console.log
+    You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+  console.log
+    [
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: 'submarine', isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: 'submarine', isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: 'submarine', isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: 'destroyer', isHit: true },
+      { ship: 'destroyer', isHit: true },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false }
+    ]
+
+      at Object.log (src/tests/gameboardFactory.test.js:59:11)
+
+FAIL src/tests/gameboardFactory.test.js
+  ✕ reports whether or not all ships have sunk (29 ms)
+  ○ skipped generates a blank gameboard
+  ○ skipped gameboard can place a ship
+  ○ skipped spaces can receive a hit once and pass it to the ship
+  ○ skipped cannot place ship with inadequate space
+  ○ skipped cannot place a ship on top of an existing ship
+
+  ● reports whether or not all ships have sunk
+
+    expect(received).toEqual(expected) // deep equality
+
+    Expected: ArrayContaining ["destroyer", "submarine"]
+    Received: ["destroyer"]
+
+      62 |   newPlayer.receiveHit(81);
+      63 |   newPlayer.receiveHit(90);
+    > 64 |   expect(newPlayer.sunkenShips).toEqual(
+         |                                 ^
+      65 |     expect.arrayContaining(["destroyer", "submarine"])
+      66 |   );
+      67 | });
+
+      at Object.toEqual (src/tests/gameboardFactory.test.js:64:33)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 5 skipped, 6 total
+Snapshots:   0 total
+Time:        0.457 s, estimated 1 s
+Ran all test suites matching /\/home\/tom\/Code\/TOP\/battleship\/src\/tests\/gameboardFactory\.test\.js/i with tests matching "^reports whether or not all ships have sunk$".
+Running tests for 'my-webpack-project'
+
+  console.log
+    You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+  console.log
+    [
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: 'submarine', isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: 'submarine', isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: 'submarine', isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: 'destroyer', isHit: true },
+      { ship: 'destroyer', isHit: true },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false },
+      { ship: null, isHit: false }
+    ]
+
+      at Object.log (src/tests/gameboardFactory.test.js:59:11)
+
+  console.log
+    You sank the submarine!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+  console.log
+    All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+PASS src/tests/gameboardFactory.test.js
+  ✓ reports whether or not all ships have sunk (31 ms)
+  ○ skipped generates a blank gameboard
+  ○ skipped gameboard can place a ship
+  ○ skipped spaces can receive a hit once and pass it to the ship
+  ○ skipped cannot place ship with inadequate space
+  ○ skipped cannot place a ship on top of an existing ship
+
+Test Suites: 1 passed, 1 total
+Tests:       5 skipped, 1 passed, 6 total
+Snapshots:   0 total
+Time:        0.374 s, estimated 1 s
+Ran all test suites matching /\/home\/tom\/Code\/TOP\/battleship\/src\/tests\/gameboardFactory\.test\.js/i with tests matching "^reports whether or not all ships have sunk$".
+Running tests for 'my-webpack-project'
+
+PASS src/tests/shipFactory.test.js
+  ● Console
+
+    console.log
+      You sank the submarine!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+FAIL src/tests/gameboardFactory.test.js
+  ● Console
+
+    console.log
+      You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+    console.log
+      You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      [
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'submarine', isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'submarine', isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'submarine', isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'destroyer', isHit: true },
+        { ship: 'destroyer', isHit: true },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false }
+      ]
+
+      at Object.log (src/tests/gameboardFactory.test.js:59:11)
+
+  ● reports whether or not all ships have sunk
+
+    expect(received).toEqual(expected) // deep equality
+
+    Expected: ArrayContaining ["destroyer", "submarine"]
+    Received: ["destroyer"]
+
+      62 |   newPlayer.receiveHit(81);
+      63 |   newPlayer.receiveHit(92);
+    > 64 |   expect(newPlayer.sunkenShips).toEqual(
+         |                                 ^
+      65 |     expect.arrayContaining(["destroyer", "submarine"])
+      66 |   );
+      67 | });
+
+      at Object.toEqual (src/tests/gameboardFactory.test.js:64:33)
+
+PASS src/tests/player.test.js
+  ● Console
+
+    console.log
+      You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+
+Test Suites: 1 failed, 2 passed, 3 total
+Tests:       1 failed, 10 passed, 11 total
+Snapshots:   0 total
+Time:        0.665 s, estimated 1 s
+Ran all test suites.
+Running tests for 'my-webpack-project'
+
+PASS src/tests/gameboardFactory.test.js
+  ● Console
+
+    console.log
+      You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+    console.log
+      You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      [
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'submarine', isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'submarine', isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'submarine', isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'destroyer', isHit: true },
+        { ship: 'destroyer', isHit: true },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false }
+      ]
+
+      at Object.log (src/tests/gameboardFactory.test.js:59:11)
+
+    console.log
+      You sank the submarine!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+PASS src/tests/shipFactory.test.js
+  ● Console
+
+    console.log
+      You sank the submarine!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+PASS src/tests/player.test.js
+  ● Console
+
+    console.log
+      You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+
+Test Suites: 3 passed, 3 total
+Tests:       11 passed, 11 total
+Snapshots:   0 total
+Time:        0.549 s, estimated 1 s
+Ran all test suites.
+Running tests for 'my-webpack-project'
+
+PASS src/tests/gameboardFactory.test.js
+  ● Console
+
+    console.log
+      You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+    console.log
+      You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      [
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'submarine', isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'submarine', isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'submarine', isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'destroyer', isHit: true },
+        { ship: 'destroyer', isHit: true },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false }
+      ]
+
+      at Object.log (src/tests/gameboardFactory.test.js:59:11)
+
+    console.log
+      You sank the submarine!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+PASS src/tests/shipFactory.test.js
+  ● Console
+
+    console.log
+      You sank the submarine!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+PASS src/tests/player.test.js
+  ● Console
+
+    console.log
+      You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+
+Test Suites: 3 passed, 3 total
+Tests:       11 passed, 11 total
+Snapshots:   0 total
+Time:        0.538 s, estimated 1 s
+Ran all test suites.
+Running tests for 'my-webpack-project'
+
+PASS src/tests/gameboardFactory.test.js
+  ● Console
+
+    console.log
+      You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+    console.log
+      You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      [
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'submarine', isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'submarine', isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'submarine', isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'destroyer', isHit: true },
+        { ship: 'destroyer', isHit: true },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false }
+      ]
+
+      at Object.log (src/tests/gameboardFactory.test.js:59:11)
+
+    console.log
+      You sank the submarine!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+PASS src/tests/shipFactory.test.js
+  ● Console
+
+    console.log
+      You sank the submarine!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+PASS src/tests/player.test.js
+  ● Console
+
+    console.log
+      You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+
+Test Suites: 3 passed, 3 total
+Tests:       11 passed, 11 total
+Snapshots:   0 total
+Time:        0.505 s, estimated 1 s
+Ran all test suites.
+Running tests for 'my-webpack-project'
+
+PASS src/tests/gameboardFactory.test.js
+  ● Console
+
+    console.log
+      You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+    console.log
+      You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      [
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'submarine', isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'submarine', isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'submarine', isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'destroyer', isHit: true },
+        { ship: 'destroyer', isHit: true },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false }
+      ]
+
+      at Object.log (src/tests/gameboardFactory.test.js:59:11)
+
+    console.log
+      You sank the submarine!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+PASS src/tests/player.test.js
+  ● Console
+
+    console.log
+      You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+PASS src/tests/shipFactory.test.js
+  ● Console
+
+    console.log
+      You sank the submarine!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+
+Test Suites: 3 passed, 3 total
+Tests:       11 passed, 11 total
+Snapshots:   0 total
+Time:        0.535 s, estimated 1 s
+Ran all test suites.
+Running tests for 'my-webpack-project'
+
+FAIL src/tests/gameboardFactory.test.js
+  ● Console
+
+    console.log
+      You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+    console.log
+      You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      [
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'submarine', isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'submarine', isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'submarine', isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'destroyer', isHit: true },
+        { ship: 'destroyer', isHit: true },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false }
+      ]
+
+      at Object.log (src/tests/gameboardFactory.test.js:59:11)
+
+    console.log
+      You sank the submarine!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+  ● gameboard can place a ship
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "cruiser"
+    Received: null
+
+      11 |   const firstPlayer = gameboardFactory();
+      12 |   firstPlayer.placeShip("ckjruiser", "vertical", 24);
+    > 13 |   expect(firstPlayer.spaces[24].ship).toBe("cruiser");
+         |                                       ^
+      14 |   expect(firstPlayer.spaces[34].ship).toBe("cruiser");
+      15 |   expect(firstPlayer.spaces[44].ship).toBe("cruiser");
+      16 |   firstPlayer.placeShip("destroyer", "horizontal", 7);
+
+      at Object.toBe (src/tests/gameboardFactory.test.js:13:39)
+
+PASS src/tests/player.test.js
+  ● Console
+
+    console.log
+      You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+Running tests for 'my-webpack-project'
+
+PASS src/tests/gameboardFactory.test.js
+  ● Console
+
+    console.log
+      You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+    console.log
+      You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      [
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'submarine', isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'submarine', isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'submarine', isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: 'destroyer', isHit: true },
+        { ship: 'destroyer', isHit: true },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false },
+        { ship: null, isHit: false }
+      ]
+
+      at Object.log (src/tests/gameboardFactory.test.js:59:11)
+
+    console.log
+      You sank the submarine!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+PASS src/tests/shipFactory.test.js
+  ● Console
+
+    console.log
+      You sank the submarine!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+PASS src/tests/player.test.js
+  ● Console
+
+    console.log
+      You sank the destroyer!
+
+      at Object.log (src/shipFactory.js:23:29)
+
+    console.log
+      All ships have sunk!
+
+      at Object.log [as receiveHit] (src/gameboardFactory.js:83:32)
+
+
+Test Suites: 3 passed, 3 total
+Tests:       11 passed, 11 total
+Snapshots:   0 total
+Time:        0.516 s, estimated 1 s
+Ran all test suites.

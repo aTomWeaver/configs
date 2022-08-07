@@ -1,0 +1,26 @@
+{
+  "add books dialog dir": "/hdd/books/calibre_library",
+  "add books dialog dir-last-used-filter-spec-all-files": false,
+  "catalogs_to_be_synced": {
+    "__class__": "set",
+    "__value__": []
+  },
+  "change cover dialog": "/hdd/books/calibre_library/covers",
+  "database location dialog": "/hdd/books/calibre_library",
+  "s_r_search_mode": 0,
+  "sort_history": [
+    [
+      "series",
+      true
+    ],
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ]
+  ],
+  "welcome_wizard_was_run": true
+}

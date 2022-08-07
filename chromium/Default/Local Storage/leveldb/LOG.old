@@ -1,0 +1,6 @@
+2022/08/06-23:37:15.382 3 Reusing MANIFEST /home/tom/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2022/08/06-23:37:15.385 3 Recovering log #4
+2022/08/06-23:37:15.397 3 Reusing old log /home/tom/.config/chromium/Default/Local Storage/leveldb/000004.log 
+2022/08/06-23:47:40.269 a Level-0 table #8: started
+2022/08/06-23:47:40.272 a Level-0 table #8: 24893 bytes OK
+2022/08/06-23:47:40.275 a Delete type=0 #4

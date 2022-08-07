@@ -1,0 +1,18 @@
+{
+  "accounts": {
+    "ATWEAVER_DGOTWT@KINDLE.COM": [
+      "MOBI,PDF",
+      true,
+      true
+    ]
+  },
+  "aliases": {},
+  "encryption": "TLS",
+  "from_": "atomspam97@gmail.com",
+  "relay_host": null,
+  "relay_password": "",
+  "relay_port": 25,
+  "relay_username": null,
+  "subjects": {},
+  "tags": {}
+}

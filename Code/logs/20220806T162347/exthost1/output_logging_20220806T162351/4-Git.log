@@ -1,0 +1,28 @@
+[2022-08-06T20:23:54.156Z] Log level: Info
+[2022-08-06T20:23:54.179Z] [info] Validating found git in: git
+[2022-08-06T20:23:54.227Z] [info] Using git 2.37.1 from git
+[2022-08-06T20:23:54.270Z] > git rev-parse --show-toplevel [20ms]
+[2022-08-06T20:23:54.292Z] > git rev-parse --git-dir --git-common-dir [5ms]
+[2022-08-06T20:23:54.302Z] [info] Open repository: /home/tom/Code/TOP/battleship
+[2022-08-06T20:23:54.420Z] > git status -z -uall [93ms]
+[2022-08-06T20:23:54.436Z] > git symbolic-ref --short HEAD [2ms]
+[2022-08-06T20:23:54.447Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+[2022-08-06T20:23:54.459Z] > git remote --verbose [2ms]
+[2022-08-06T20:23:54.460Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+[2022-08-06T20:23:54.476Z] > git config --get commit.template [4ms]
+[2022-08-06T20:23:54.489Z] > git status -z -uall [7ms]
+[2022-08-06T20:23:54.514Z] > git symbolic-ref --short HEAD [3ms]
+[2022-08-06T20:23:54.531Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+[2022-08-06T20:23:54.550Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+[2022-08-06T20:23:54.551Z] > git remote --verbose [4ms]
+[2022-08-06T20:23:54.562Z] > git config --get commit.template [2ms]
+[2022-08-06T20:23:57.115Z] > git check-ignore -v -z --stdin [128ms]
+[2022-08-06T20:27:18.455Z] > git show --textconv :src/gameLoop.js [7ms]
+[2022-08-06T20:27:18.456Z] > git ls-files --stage -- /home/tom/Code/TOP/battleship/src/gameLoop.js [1ms]
+[2022-08-06T20:27:18.463Z] > git cat-file -s 9edcabbbeec49427e8a069a8463774c7e8475ef5 [1ms]
+[2022-08-06T20:27:21.795Z] > git check-ignore -v -z --stdin [1ms]
+[2022-08-06T20:28:20.785Z] > git rev-parse --show-toplevel [7ms]
+[2022-08-06T20:28:20.785Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-06T20:30:38.053Z] > git show --textconv :src/gameLoop.js [5ms]
+[2022-08-06T20:30:38.053Z] > git ls-files --stage -- /home/tom/Code/TOP/battleship/src/gameLoop.js [1ms]
+[2022-08-06T20:30:38.064Z] > git cat-file -s 9edcabbbeec49427e8a069a8463774c7e8475ef5 [5ms]

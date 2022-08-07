@@ -1,0 +1,198 @@
+{
+  "main_window_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAPoAAACQAAAB3oAAAQyAAAD6AAAAkAAAAd6AAAEMgAAAAAAAAAAB4AAAAPoAAACQAAAB3oAAAQy"
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAEAAAAB8/wCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAAAAAB8wAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAmgD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACEAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANIA////AAADkwAAAfMAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "session_data": {
+    "controls_help_shown_count": 2,
+    "current_color_scheme": "sepia-light",
+    "keyboard_shortcuts": {
+      "back": [
+        {
+          "altKey": true,
+          "ctrlKey": false,
+          "key": "ArrowLeft",
+          "metaKey": false,
+          "shiftKey": false
+        },
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "h",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ],
+      "right": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "ArrowRight",
+          "metaKey": false,
+          "shiftKey": false
+        },
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "l",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ]
+    },
+    "override_book_colors": "dark",
+    "standalone_font_settings": {
+      "mono_family": "Iosevka Term Slab Extended",
+      "sans_family": "Sans Serif",
+      "serif_family": "Noto Serif [GOOG]"
+    },
+    "standalone_misc_settings": {
+      "remember_last_read": true,
+      "remember_window_geometry": false,
+      "save_annotations_in_ebook": true,
+      "singleinstance": false
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "Leo Nikoleyevich Tolstoy"
+        ],
+        "key": "/home/tom/Calibre Library/Leo Nikoleyevich Tolstoy/Anna Karenina (7)/Anna Karenina - Leo Nikoleyevich Tolstoy.mobi",
+        "pathtoebook": "/home/tom/Calibre Library/Leo Nikoleyevich Tolstoy/Anna Karenina (7)/Anna Karenina - Leo Nikoleyevich Tolstoy.mobi",
+        "timestamp": "2022-08-06T20:15:19.297Z",
+        "title": "Anna Karenina"
+      },
+      {
+        "authors": [
+          "David Mitchell"
+        ],
+        "key": "/home/tom/Calibre Library/David Mitchell/Number9Dream (37)/Number9Dream - David Mitchell.epub",
+        "pathtoebook": "/home/tom/Calibre Library/David Mitchell/Number9Dream (37)/Number9Dream - David Mitchell.epub",
+        "timestamp": "2022-08-06T20:10:34.977Z",
+        "title": "Number9Dream"
+      },
+      {
+        "authors": [
+          "Mary Beard"
+        ],
+        "key": "/home/tom/Calibre Library/Mary Beard/SPQR_ A History of Ancient Rome (11)/SPQR_ A History of Ancient Rome - Mary Beard.epub",
+        "pathtoebook": "/home/tom/Calibre Library/Mary Beard/SPQR_ A History of Ancient Rome (11)/SPQR_ A History of Ancient Rome - Mary Beard.epub",
+        "timestamp": "2022-08-06T16:46:18.800Z",
+        "title": "SPQR: A History of Ancient Rome"
+      },
+      {
+        "authors": [
+          "Arthur Golden"
+        ],
+        "key": "/home/tom/Calibre Library/Arthur Golden/Memoirs of a Geisha (2)/Memoirs of a Geisha - Arthur Golden.mobi",
+        "pathtoebook": "/home/tom/Calibre Library/Arthur Golden/Memoirs of a Geisha (2)/Memoirs of a Geisha - Arthur Golden.mobi",
+        "timestamp": "2022-08-06T16:45:49.188Z",
+        "title": "Memoirs of a Geisha"
+      },
+      {
+        "authors": [
+          "Frank Herbert"
+        ],
+        "key": "/home/tom/Calibre Library/Frank Herbert/Dune (16)/Dune - Frank Herbert.mobi",
+        "pathtoebook": "/home/tom/Calibre Library/Frank Herbert/Dune (16)/Dune - Frank Herbert.mobi",
+        "timestamp": "2022-08-06T16:45:27.765Z",
+        "title": "Dune"
+      },
+      {
+        "authors": [
+          "Dante Alighieri"
+        ],
+        "key": "/home/tom/Calibre Library/Dante Alighieri/The Divine Comedy (19)/The Divine Comedy - Dante Alighieri.mobi",
+        "pathtoebook": "/home/tom/Calibre Library/Dante Alighieri/The Divine Comedy (19)/The Divine Comedy - Dante Alighieri.mobi",
+        "timestamp": "2022-08-06T16:45:06.614Z",
+        "title": "The Divine Comedy"
+      },
+      {
+        "authors": [
+          "Alexander, Lloyd"
+        ],
+        "key": "/home/tom/Calibre Library/Alexander, Lloyd/The Book of Three (6)/The Book of Three - Alexander, Lloyd.epub",
+        "pathtoebook": "/home/tom/Calibre Library/Alexander, Lloyd/The Book of Three (6)/The Book of Three - Alexander, Lloyd.epub",
+        "timestamp": "2022-08-06T16:44:52.033Z",
+        "title": "The Book of Three"
+      },
+      {
+        "authors": [
+          "S. J. Scott"
+        ],
+        "key": "/home/tom/Calibre Library/S. J. Scott/Habit Stacking_ 127 Small Changes to Improve Your Health, Wealth, and Happiness (Most Are Five M (20)/Habit Stacking_ 127 Small Changes to Impro - S. J. Scott.epub",
+        "pathtoebook": "/home/tom/Calibre Library/S. J. Scott/Habit Stacking_ 127 Small Changes to Improve Your Health, Wealth, and Happiness (Most Are Five M (20)/Habit Stacking_ 127 Small Changes to Impro - S. J. Scott.epub",
+        "timestamp": "2022-08-06T16:40:43.385Z",
+        "title": "Habit Stacking: 127 Small Changes to Improve Your Health, Wealth, and Happiness (Most Are Five Minutes or Less)"
+      },
+      {
+        "authors": [
+          "Alexander, Lloyd"
+        ],
+        "key": "/home/tom/Calibre Library/Alexander, Lloyd/The Castle of Llyr (33)/The Castle of Llyr - Alexander, Lloyd.epub",
+        "pathtoebook": "/home/tom/Calibre Library/Alexander, Lloyd/The Castle of Llyr (33)/The Castle of Llyr - Alexander, Lloyd.epub",
+        "timestamp": "2022-08-06T16:40:10.890Z",
+        "title": "The Castle of Llyr"
+      },
+      {
+        "authors": [
+          "Lloyd Alexander"
+        ],
+        "key": "/home/tom/Calibre Library/Lloyd Alexander/The Castle of Llyr (28)/The Castle of Llyr - Lloyd Alexander.mobi",
+        "pathtoebook": "/home/tom/Calibre Library/Lloyd Alexander/The Castle of Llyr (28)/The Castle of Llyr - Lloyd Alexander.mobi",
+        "timestamp": "2022-08-06T16:39:50.300Z",
+        "title": "Prydain 03 - The Castle of Llyr"
+      },
+      {
+        "authors": [
+          "Lloyd Alexander"
+        ],
+        "key": "/home/tom/Calibre Library/Lloyd Alexander/Taran Wanderer (27)/Taran Wanderer - Lloyd Alexander.mobi",
+        "pathtoebook": "/home/tom/Calibre Library/Lloyd Alexander/Taran Wanderer (27)/Taran Wanderer - Lloyd Alexander.mobi",
+        "timestamp": "2022-08-06T16:39:34.039Z",
+        "title": "Prydain 04 - Taran Wanderer"
+      },
+      {
+        "authors": [
+          "Alexander, Lloyd"
+        ],
+        "key": "/home/tom/Calibre Library/Alexander, Lloyd/The High King (31)/The High King - Alexander, Lloyd.epub",
+        "pathtoebook": "/home/tom/Calibre Library/Alexander, Lloyd/The High King (31)/The High King - Alexander, Lloyd.epub",
+        "timestamp": "2022-08-06T16:39:07.053Z",
+        "title": "The High King"
+      },
+      {
+        "authors": [
+          "Lloyd Alexander"
+        ],
+        "key": "/home/tom/Calibre Library/Lloyd Alexander/The High King (26)/The High King - Lloyd Alexander.mobi",
+        "pathtoebook": "/home/tom/Calibre Library/Lloyd Alexander/The High King (26)/The High King - Lloyd Alexander.mobi",
+        "timestamp": "2022-08-06T16:38:44.530Z",
+        "title": "Prydain 05 - The High King"
+      },
+      {
+        "authors": [
+          "Frank Herbert"
+        ],
+        "key": "/home/tom/Calibre Library/Frank Herbert/Chapterhouse_ Dune (12)/Chapterhouse_ Dune - Frank Herbert.mobi",
+        "pathtoebook": "/home/tom/Calibre Library/Frank Herbert/Chapterhouse_ Dune (12)/Chapterhouse_ Dune - Frank Herbert.mobi",
+        "timestamp": "2022-08-06T16:26:45.577Z",
+        "title": "Chapterhouse: Dune"
+      },
+      {
+        "authors": [
+          "Frank Herbert"
+        ],
+        "key": "/home/tom/Calibre Library/Frank Herbert/God Emperor of Dune (13)/God Emperor of Dune - Frank Herbert.mobi",
+        "pathtoebook": "/home/tom/Calibre Library/Frank Herbert/God Emperor of Dune (13)/God Emperor of Dune - Frank Herbert.mobi",
+        "timestamp": "2022-08-06T16:26:31.520Z",
+        "title": "God Emperor of Dune"
+      }
+    ]
+  }
+}

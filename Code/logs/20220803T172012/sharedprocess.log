@@ -1,0 +1,8 @@
+[2022-08-03 17:20:15.045] [sharedprocess] [info] Starting worker process with pid 56268 (type: fileWatcher, window: 1).
+[2022-08-03 17:35:43.479] [sharedprocess] [info] Getting Manifest... monokai.theme-monokai-pro-vscode
+[2022-08-03 17:35:43.486] [sharedprocess] [info] Installing extension: monokai.theme-monokai-pro-vscode
+[2022-08-03 17:35:44.442] [sharedprocess] [info] Downloaded extension: monokai.theme-monokai-pro-vscode /home/tom/.config/Code/CachedExtensionVSIXs/monokai.theme-monokai-pro-vscode-1.1.20
+[2022-08-03 17:35:44.511] [sharedprocess] [info] Extracted extension to /home/tom/.vscode/extensions/.94cf2a3d-630b-4275-b4e2-ca8f9c1c169a: monokai.theme-monokai-pro-vscode
+[2022-08-03 17:35:44.515] [sharedprocess] [info] Renamed to /home/tom/.vscode/extensions/monokai.theme-monokai-pro-vscode-1.1.20
+[2022-08-03 17:35:44.516] [sharedprocess] [info] Extracting completed. monokai.theme-monokai-pro-vscode
+[2022-08-03 17:35:44.517] [sharedprocess] [info] Extension installed successfully: monokai.theme-monokai-pro-vscode
