@@ -1,2 +1,3 @@
-2022/08/06-16:23:21.722 68fd Creating DB /home/tom/.config/chromium/Default/Extension Scripts since it was missing.
-2022/08/06-16:23:21.737 68fd Reusing MANIFEST /home/tom/.config/chromium/Default/Extension Scripts/MANIFEST-000001
+2023/07/14-19:14:27.177 50736 Reusing MANIFEST /home/tom/.config/chromium/Default/Extension Scripts/MANIFEST-000001
+2023/07/14-19:14:27.177 50736 Recovering log #3
+2023/07/14-19:14:27.179 50736 Reusing old log /home/tom/.config/chromium/Default/Extension Scripts/000003.log 

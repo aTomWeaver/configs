@@ -4,9 +4,16 @@
       "MOBI,PDF",
       true,
       true
+    ],
+    "atw_0211387277215@kindle.com": [
+      "EPUB",
+      false,
+      false
     ]
   },
-  "aliases": {},
+  "aliases": {
+    "atw_0211387277215@kindle.com": "MAIN"
+  },
   "encryption": "TLS",
   "from_": "atomspam97@gmail.com",
   "relay_host": null,

@@ -8,6 +8,7 @@
 " drop vi support - kept for vim compatibility but not needed for nvim
 " Probably not needed with Vim 8+
 "set nocompatible
+:let mapleader="\<Space>"
 
 " Search recursively downward from CWD; provides TAB completion for filenames
 " e.g., `:find vim* <TAB>`
@@ -42,12 +43,17 @@ set relativenumber
 set number 
 
 " number of lines offset when jumping
-set scrolloff=2
+set scrolloff=5
 
 " Tab key enters 2 spaces
 " To enter a TAB character when `expandtab` is in effect,
 " CTRL-v-TAB
+
 set expandtab tabstop=2 shiftwidth=2 softtabstop=2 
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
 
 " Indent new line the same as the preceding line
 set autoindent
@@ -106,6 +112,7 @@ let g:netrw_browse_split = 3
 call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'sheerun/vim-polyglot'
+Plug 'preservim/nerdcommenter'
 Plug 'ap/vim-css-color'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-commentary'
@@ -113,8 +120,31 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
 Plug 'vimwiki/vimwiki'
 Plug 'sainnhe/sonokai'
+Plug 'sainnhe/everforest'
 Plug 'tribela/vim-transparent'
 Plug 'preservim/vim-pencil'
+Plug 'mattn/emmet-vim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.2' }
+" Below was downloaded from https://x-team.com/blog/neovim-javascript/
+Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'} " this is for auto complete, prettier and tslinting
+let g:coc_global_extensions = ['coc-tslint-plugin', 'coc-tsserver', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier']  " list of CoC extensions needed
+
+let g:lightline = {'colorscheme' : 'everforest'}
+inoremap <silent><expr> <tab> coc#pum#visible() ? coc#_select_confirm(): "\<C-g>u\<TAB>"
+inoremap <silent><expr> <kDown>
+      \ coc#pum#visible() ? coc#pum#next(1) :
+      \ CheckBackspace() ? "\<Tab>" :
+      \ coc#refresh()
+inoremap <expr><kUp> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
+Plug 'jiangmiao/auto-pairs' "this will auto close ( [ {
+
+" these two plugins will add highlighting and indenting to JSX and TSX files.
+Plug 'yuezk/vim-js'
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'maxmellon/vim-jsx-pretty'
+"
+
 
 call plug#end()
 
@@ -122,14 +152,14 @@ syntax enable
 " Neovim only
 set termguicolors 
 " Dark scheme
-colorscheme sonokai
+colorscheme everforest
 
 set background=dark
 " Show character column
 set colorcolumn=80
 
-let g:markdown_fenced_languages = ['c']
-let g:vimwiki_list = [{'path': '~/Documents/vimwiki/', 'syntax': 'markdown', 'ext': '.md'}]
+let g:markdown_fenced_languages = ['c', 'javascript', 'python', 'bash', 'SQL']
+let g:vimwiki_list = [{'path': '~/documents/vimwiki/', 'syntax': 'markdown', 'ext': '.md'}]
 let g:blamer_enabled = 1
 let g:blamer_date_format = '%e %b %Y'
 highlight Blamer guifg=darkorange

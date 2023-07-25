@@ -1,6 +1,6 @@
 [Hotkey]
 # Trigger Input Method
-TriggerKey=CTRL_SPACE CTRL_SUPER_ENTER
+TriggerKey=F4 F4
 # Use extra trigger key only after using it to inactivate
 # Available Value:
 # True False
@@ -27,7 +27,7 @@ TriggerKey=CTRL_SPACE CTRL_SUPER_ENTER
 # Super+Right Ctrl
 # Disabled
 # Custom
-#SwitchKey=L_SHIFT
+SwitchKey=Disabled
 # Custom switch key
 #CustomSwitchKey=
 # Activate input method
@@ -37,7 +37,7 @@ TriggerKey=CTRL_SPACE CTRL_SUPER_ENTER
 # Enable Hotkey to scroll Between Input Method
 # Available Value:
 # True False
-#IMSwitchKey=True
+IMSwitchKey=False
 # Include Inactivate when scrolling between Input Method
 # Available Value:
 # True False
@@ -48,7 +48,7 @@ TriggerKey=CTRL_SPACE CTRL_SUPER_ENTER
 # ALT_SHIFT
 # CTRL_SUPER
 # ALT_SUPER
-#IMSwitchHotkey=CTRL_SHIFT
+IMSwitchHotkey=ALT_SHIFT
 # Reload configuration
 #ReloadConfig=CTRL_5
 # Interval of Two Key Input
@@ -89,7 +89,7 @@ TriggerKey=CTRL_SPACE CTRL_SUPER_ENTER
 # Available Value:
 # Inactive
 # Active
-#DefaultInputMethodState=Inactive
+DefaultInputMethodState=Active
 
 [Output]
 # Type half width Punc After a Number
@@ -123,7 +123,7 @@ TriggerKey=CTRL_SPACE CTRL_SUPER_ENTER
 # Show Input Method Hint After Input method changed and Focus in
 # Available Value:
 # True False
-#ShowInputWindowWhenFocusIn=False
+ShowInputWindowWhenFocusIn=True
 # Input Method Hint will be only shown when state is active
 # Available Value:
 # True False

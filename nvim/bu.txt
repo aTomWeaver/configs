@@ -1,0 +1,165 @@
+" (N)Vim Configuration File
+" vim  : place in $HOME/.vimrc
+" nvim : place in $HOME/.config/nvim/init.vim
+" $ ln -s $HOME/.config/nvim/init.vim $HOME/.vimrc
+" General settings
+" https://learnvimscriptthehardway.stevelosh.com/
+" ---------------------------------------------------------------------------
+" drop vi support - kept for vim compatibility but not needed for nvim
+" Probably not needed with Vim 8+
+"set nocompatible
+:let mapleader="\<Space>"
+
+" Search recursively downward from CWD; provides TAB completion for filenames
+" e.g., `:find vim* <TAB>`
+set path+=**
+
+" number of lines at the beginning and end of files checked for file-specific vars
+set modelines=0
+
+" reload files changed outside of Vim not currently modified in Vim (needs below)
+set autoread
+
+" http://stackoverflow.com/questions/2490227/how-does-vims-autoread-work#20418591
+au FocusGained,BufEnter * :silent! !
+
+" use Unicode
+set encoding=utf-8
+
+" errors flash screen rather than emit beep
+set visualbell
+
+" make Backspace work like Delete
+set backspace=indent,eol,start
+
+" don't create `filename~` backups
+set nobackup
+
+" don't create temp files
+set noswapfile
+
+" line numbers and distances
+set relativenumber 
+set number 
+
+" number of lines offset when jumping
+set scrolloff=5
+
+" Tab key enters 2 spaces
+" To enter a TAB character when `expandtab` is in effect,
+" CTRL-v-TAB
+
+set expandtab tabstop=2 shiftwidth=2 softtabstop=2 
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+
+" Indent new line the same as the preceding line
+set autoindent
+
+" statusline indicates insert or normal mode
+set showmode showcmd
+
+" make scrolling and painting fast
+" ttyfast kept for vim compatibility but not needed for nvim
+set ttyfast lazyredraw
+
+" highlight matching parens, braces, brackets, etc
+set showmatch
+
+" http://vim.wikia.com/wiki/Searching
+set hlsearch incsearch ignorecase smartcase
+
+" As opposed to `wrap`
+"set nowrap
+
+" http://vim.wikia.com/wiki/Set_working_directory_to_the_current_file
+set autochdir
+
+" open new buffers without saving current modifications (buffer remains open)
+set hidden
+
+" http://stackoverflow.com/questions/9511253/how-to-effectively-use-vim-wildmenu
+set wildmenu wildmode=list:longest,full
+
+" StatusLine always visible, display full path
+" http://learnvimscriptthehardway.stevelosh.com/chapters/17.html
+set laststatus=2 statusline=%F
+
+" Use system clipboard
+" http://vim.wikia.com/wiki/Accessing_the_system_clipboard
+" for linux
+"set clipboard=unnamedplus
+" for macOS
+set clipboard=unnamed
+
+" Folding
+" https://vim.fandom.com/wiki/Folding
+" https://vim.fandom.com/wiki/All_folds_open_when_opening_a_file
+" https://stackoverflow.com/questions/8316139/how-to-set-the-default-to-unfolded-when-you-open-a-file
+set foldmethod=indent
+set foldnestmax=1
+set foldlevelstart=1
+
+" netrw and vim-vinegar
+let g:netrw_browse_split = 3
+
+" Plugins, syntax, and colors
+" ---------------------------------------------------------------------------
+" Specify a directory for plugins
+" - For Neovim: ~/.local/share/nvim/plugged
+call plug#begin('~/.local/share/nvim/plugged')
+
+Plug 'sheerun/vim-polyglot'
+Plug 'preservim/nerdcommenter'
+Plug 'ap/vim-css-color'
+Plug 'itchyny/lightline.vim'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-vinegar'
+Plug 'vimwiki/vimwiki'
+Plug 'sainnhe/sonokai'
+Plug 'sainnhe/everforest'
+Plug 'tribela/vim-transparent'
+Plug 'preservim/vim-pencil'
+Plug 'mattn/emmet-vim'
+" Below was downloaded from https://x-team.com/blog/neovim-javascript/
+Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'} " this is for auto complete, prettier and tslinting
+let g:coc_global_extensions = ['coc-tslint-plugin', 'coc-tsserver', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier']  " list of CoC extensions needed
+
+let g:lightline = {'colorscheme' : 'everforest'}
+"inoremap <silent><expr> <kRight> coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<TAB>"
+inoremap <silent><expr> <tab> coc#pum#visible() ? coc#_select_confirm(): "\<C-g>u\<TAB>"
+inoremap <silent><expr> <kDown>
+      \ coc#pum#visible() ? coc#pum#next(1) :
+      \ CheckBackspace() ? "\<Tab>" :
+      \ coc#refresh()
+inoremap <expr><kUp> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
+ter
+Plug 'jiangmiao/auto-pairs' "this will auto close ( [ {
+
+" these two plugins will add highlighting and indenting to JSX and TSX files.
+Plug 'yuezk/vim-js'
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'maxmellon/vim-jsx-pretty'
+"
+
+
+call plug#end()
+
+syntax enable
+" Neovim only
+set termguicolors 
+" Dark scheme
+colorscheme everforest
+
+set background=dark
+" Show character column
+set colorcolumn=80
+
+let g:markdown_fenced_languages = ['c', 'javascript']
+let g:vimwiki_list = [{'path': '~/documents/vimwiki/', 'syntax': 'markdown', 'ext': '.md'}]
+let g:blamer_enabled = 1
+let g:blamer_date_format = '%e %b %Y'
+highlight Blamer guifg=darkorange

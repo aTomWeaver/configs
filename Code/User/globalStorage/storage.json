@@ -2,13 +2,13 @@
     "telemetry.machineId": "f74fe4030b16d1bb64013b3d1632c1f36a17e365ce46b4f97dda11a4dcfc8d65",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/tom/Code/TOP/battleship",
-            "backupPath": "/home/tom/.config/Code/Backups/8231ad9f4e4651291bce088f82853905",
+            "folder": "file:///home/tom/code/TOP/battleship",
+            "backupPath": "/home/tom/.config/Code/Backups/fb9fc40e166d77e3f8809eda56bcb727",
             "uiState": {
                 "mode": 1,
-                "x": 6,
+                "x": 2566,
                 "y": 32,
-                "width": 1488,
+                "width": 1908,
                 "height": 1042
             }
         },
@@ -61,24 +61,112 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/tom/Code/TOP/battleship",
-                                        "external": "file:///home/tom/Code/TOP/battleship",
-                                        "path": "/home/tom/Code/TOP/battleship",
+                                        "fsPath": "/home/tom/code/TOP/battleship",
+                                        "external": "file:///home/tom/code/TOP/battleship",
+                                        "path": "/home/tom/code/TOP/battleship",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Code/TOP/battleship"
+                                    "label": "~/code/TOP/battleship"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/tom/Documents/vimwiki",
-                                        "path": "/home/tom/Documents/vimwiki",
+                                        "external": "file:///home/tom/code/work/qatools-gui/qatools-gui",
+                                        "path": "/home/tom/code/work/qatools-gui/qatools-gui",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documents/vimwiki"
+                                    "label": "~/code/work/qatools-gui/qatools-gui"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/tom/code/work/qatools-gui",
+                                        "path": "/home/tom/code/work/qatools-gui",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/code/work/qatools-gui"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/tom/code/python/history_timeline",
+                                        "path": "/home/tom/code/python/history_timeline",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/code/python/history_timeline"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/tom/code/python/td",
+                                        "path": "/home/tom/code/python/td",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/code/python/td"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/tom/code/python/zentask",
+                                        "path": "/home/tom/code/python/zentask",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/code/python/zentask"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/tom/code/python/autogui",
+                                        "path": "/home/tom/code/python/autogui",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/code/python/autogui"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/tom/Code/cli-projects/focus",
+                                        "path": "/home/tom/Code/cli-projects/focus",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Code/cli-projects/focus"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/tom/Code/Python/misc",
+                                        "path": "/home/tom/Code/Python/misc",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Code/Python/misc"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/tom/Code/Python/arch_scripts",
+                                        "path": "/home/tom/Code/Python/arch_scripts",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Code/Python/arch_scripts"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -87,6 +175,51 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/tom/Code/TOP/memory-game/public/favicon.ico",
+                                        "path": "/home/tom/Code/TOP/memory-game/public/favicon.ico",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Code/TOP/memory-game/public/favicon.ico"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/tom/Code/cli-projects/jot/package.json",
+                                        "path": "/home/tom/Code/cli-projects/jot/package.json",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Code/cli-projects/jot/package.json"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/tom/Code/eno.csv",
+                                        "path": "/home/tom/Code/eno.csv",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Code/eno.csv"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/tom/Code/sbeve/eno.csv",
+                                        "path": "/home/tom/Code/sbeve/eno.csv",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Code/sbeve/eno.csv"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/tom/.vscode/extensions/monokai.theme-monokai-pro-vscode-1.1.20/js/app.js",
                                         "path": "/home/tom/.vscode/extensions/monokai.theme-monokai-pro-vscode-1.1.20/js/app.js",
                                         "scheme": "file"
                                     },
@@ -130,11 +263,13 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save"
+                        "label": "&&Save",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As..."
+                        "label": "Save &&As...",
+                        "enabled": false
                     },
                     {
                         "id": "saveAll",
@@ -217,6 +352,13 @@
                                 {
                                     "id": "workbench.action.selectProductIconTheme",
                                     "label": "&&Product Icon Theme"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "workbench.userDataSync.actions.manage",
+                                    "label": "Settings Sync is On"
                                 }
                             ]
                         }
@@ -226,11 +368,13 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File"
+                        "label": "Re&&vert File",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor"
+                        "label": "&&Close Editor",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeFolder",
@@ -279,11 +423,13 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find"
+                        "label": "&&Find",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace"
+                        "label": "&&Replace",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -464,7 +610,8 @@
                                         "items": [
                                             {
                                                 "id": "workbench.action.positionPanelBottom",
-                                                "label": "Bottom"
+                                                "label": "Bottom",
+                                                "checked": true
                                             },
                                             {
                                                 "id": "workbench.action.positionPanelLeft",
@@ -472,8 +619,7 @@
                                             },
                                             {
                                                 "id": "workbench.action.positionPanelRight",
-                                                "label": "Right",
-                                                "checked": true
+                                                "label": "Right"
                                             }
                                         ]
                                     }
@@ -645,7 +791,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.toggleMinimap",
@@ -671,7 +818,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -680,7 +828,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -992,7 +1141,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1225,17 +1375,9 @@
                 "label": "Ctrl+F",
                 "userSettingsLabel": "ctrl+f"
             },
-            "editor.action.startFindReplaceAction": {
-                "label": "Ctrl+H",
-                "userSettingsLabel": "ctrl+h"
-            },
             "workbench.action.findInFiles": {
                 "label": "Ctrl+Shift+F",
                 "userSettingsLabel": "ctrl+shift+f"
-            },
-            "workbench.action.replaceInFiles": {
-                "label": "Ctrl+Shift+H",
-                "userSettingsLabel": "ctrl+shift+h"
             },
             "editor.action.commentLine": {
                 "label": "Ctrl+/",
@@ -1278,12 +1420,12 @@
                 "userSettingsLabel": "alt+down"
             },
             "editor.action.insertCursorAbove": {
-                "label": "Ctrl+Shift+Up",
-                "userSettingsLabel": "ctrl+shift+up"
+                "label": "Shift+Alt+Up",
+                "userSettingsLabel": "shift+alt+up"
             },
             "editor.action.insertCursorBelow": {
-                "label": "Ctrl+Shift+Down",
-                "userSettingsLabel": "ctrl+shift+down"
+                "label": "Shift+Alt+Down",
+                "userSettingsLabel": "shift+alt+down"
             },
             "editor.action.insertCursorAtEndOfEachLineSelected": {
                 "label": "Shift+Alt+I",
@@ -1368,10 +1510,6 @@
             "workbench.debug.action.toggleRepl": {
                 "label": "Ctrl+Shift+Y",
                 "userSettingsLabel": "ctrl+shift+y"
-            },
-            "workbench.action.terminal.toggleTerminal": {
-                "label": "Ctrl+`",
-                "userSettingsLabel": "ctrl+`"
             },
             "editor.action.toggleWordWrap": {
                 "label": "Alt+Z",
@@ -1556,25 +1694,25 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#2d2a2e",
+    "themeBackground": "#2d353b",
     "windowSplash": {
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#fcfcfa",
-            "background": "#2d2a2e",
-            "editorBackground": "#2d2a2e",
-            "titleBarBackground": "#221f22",
-            "activityBarBackground": "#19181a",
-            "sideBarBackground": "#221f22",
-            "statusBarBackground": "#221f22",
-            "statusBarNoFolderBackground": "#221f22"
+            "foreground": "#9aa79d",
+            "background": "#2d353b",
+            "editorBackground": "#2d353b",
+            "titleBarBackground": "#2d353b",
+            "activityBarBackground": "#2d353b",
+            "sideBarBackground": "#2d353b",
+            "statusBarBackground": "#2d353b",
+            "statusBarNoFolderBackground": "#2d353b"
         },
         "layoutInfo": {
             "sideBarSide": "right",
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 224,
+            "sideBarWidth": 170,
             "statusBarHeight": 22,
             "windowBorder": false
         }

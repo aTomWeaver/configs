@@ -1,3 +1,6 @@
-2022/08/06-23:37:15.728 3 Reusing MANIFEST /home/tom/.config/chromium/Default/Session Storage/MANIFEST-000001
-2022/08/06-23:37:15.729 3 Recovering log #4
-2022/08/06-23:37:15.735 3 Reusing old log /home/tom/.config/chromium/Default/Session Storage/000004.log 
+2023/06/11-11:06:43.122 3 Reusing MANIFEST /home/tom/.config/chromium/Default/Session Storage/MANIFEST-000001
+2023/06/11-11:06:43.125 3 Recovering log #2296
+2023/06/11-11:06:43.126 3 Reusing old log /home/tom/.config/chromium/Default/Session Storage/002296.log 
+2023/06/17-11:42:47.980 3 Level-0 table #2300: started
+2023/06/17-11:42:47.985 3 Level-0 table #2300: 18047 bytes OK
+2023/06/17-11:42:47.994 3 Delete type=0 #2296

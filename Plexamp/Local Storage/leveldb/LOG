@@ -1,0 +1,5 @@
+2023/05/28-18:45:44.791 58967 Reusing MANIFEST /home/tom/.config/Plexamp/Local Storage/leveldb/MANIFEST-000001
+2023/05/28-18:45:44.795 58967 Recovering log #106
+2023/05/28-18:45:44.800 58967 Level-0 table #110: started
+2023/05/28-18:45:44.806 58967 Level-0 table #110: 15902 bytes OK
+2023/05/28-18:45:44.809 58967 Delete type=0 #106

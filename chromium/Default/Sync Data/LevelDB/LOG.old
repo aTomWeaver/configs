@@ -1,3 +1,3 @@
-2022/08/06-23:37:15.411 920 Reusing MANIFEST /home/tom/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
-2022/08/06-23:37:15.411 920 Recovering log #3
-2022/08/06-23:37:15.414 920 Reusing old log /home/tom/.config/chromium/Default/Sync Data/LevelDB/000003.log 
+2023/06/11-11:06:43.016 3ade Reusing MANIFEST /home/tom/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2023/06/11-11:06:43.016 3ade Recovering log #3
+2023/06/11-11:06:43.016 3ade Reusing old log /home/tom/.config/chromium/Default/Sync Data/LevelDB/000003.log 

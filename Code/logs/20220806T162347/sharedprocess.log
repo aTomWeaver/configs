@@ -1,8 +1,0 @@
-[2022-08-06 16:23:51.676] [sharedprocess] [info] Starting worker process with pid 27161 (type: fileWatcher, window: 1).
-[2022-08-06 16:23:54.695] [sharedprocess] [info] Getting Manifest... wallabyjs.quokka-vscode
-[2022-08-06 16:23:55.085] [sharedprocess] [info] Installing extension: wallabyjs.quokka-vscode
-[2022-08-06 16:23:58.868] [sharedprocess] [info] Downloaded extension: wallabyjs.quokka-vscode /home/tom/.config/Code/CachedExtensionVSIXs/wallabyjs.quokka-vscode-1.0.496
-[2022-08-06 16:24:02.888] [sharedprocess] [info] Extracted extension to /home/tom/.vscode/extensions/.47bf9f6c-f250-4e83-83df-e380584c30f4: wallabyjs.quokka-vscode
-[2022-08-06 16:24:02.889] [sharedprocess] [info] Renamed to /home/tom/.vscode/extensions/wallabyjs.quokka-vscode-1.0.496
-[2022-08-06 16:24:02.890] [sharedprocess] [info] Extracting completed. wallabyjs.quokka-vscode
-[2022-08-06 16:24:02.890] [sharedprocess] [info] Extension installed successfully: wallabyjs.quokka-vscode

@@ -1,5 +1,5 @@
 {
-  "add books dialog dir": "/hdd/books/calibre_library",
+  "add books dialog dir": "/home/tom/Downloads",
   "add books dialog dir-last-used-filter-spec-all-files": false,
   "catalogs_to_be_synced": {
     "__class__": "set",
@@ -7,6 +7,18 @@
   },
   "change cover dialog": "/hdd/books/calibre_library/covers",
   "database location dialog": "/hdd/books/calibre_library",
+  "notified-version-updates": {
+    "__class__": "set",
+    "__value__": [
+      "6.19",
+      "6.7",
+      "6.17",
+      "6.15",
+      "6.9",
+      "6.11",
+      "6.12"
+    ]
+  },
   "s_r_search_mode": 0,
   "sort_history": [
     [

@@ -21,18 +21,17 @@ _bootstrapWindow.load = function(modulePaths, resultCallback, options) {
 			prevBeforeLoaderConfig(configuration, loaderConfig);
 		if (loaderConfig.amdModulesPattern !== undefined) {
 			let prevPattern = loaderConfig.amdModulesPattern;
-			let additionalPattern = /^monkey-generated\/|^customize-ui\//;
+			let additionalPattern = /^monkey-generated\//;
 			let joined = prevPattern.toString().slice(1, -1) + additionalPattern.toString().slice(1, -1);
 			loaderConfig.amdModulesPattern = new RegExp(joined);
 		}
 		Object.assign(loaderConfig.paths, {
-			"customize-ui" : "../../../../../home/tom/.config/Code/User/globalStorage/iocave.customize-ui/modules",
 			"monkey-generated" : "../../../../../home/tom/.config/Code/User/globalStorage/iocave.monkey-patch/modules"
 		});
 		require.define("monkey-patch", {
 			load: function (name, req, onload, config) {
 				req([name], function (value) {
-					req(["customize-ui/customize-ui"], function() {
+					req([], function() {
 						onload(value);
 					}, function(error) {
 						console.error(error);

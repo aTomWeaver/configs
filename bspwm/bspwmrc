@@ -1,11 +1,13 @@
-#! /bin/sh
+#!/bin/zsh
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor -d mus web code dev note 六 七 八 九  
+bspc monitor DP-4 -d web code dev note plan 日本語 misc mail
+bspc monitor HDMI-0 -d mus web docs msc1 msc2
+
 
 bspc config border_width         1
-bspc config focused_border_color "#de9649"
+bspc config focused_border_color "#83c092"
 bspc config window_gap           5
 bspc config top_padding 	 26
 
@@ -13,16 +15,24 @@ bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
+bspc rule -a '*:blueman-manager' state=floating center=true
+bspc rule -a tk state=floating
 bspc rule -a Gimp desktop='^8' state=floating follow=on
 bspc rule -a Chromium desktop='^2'
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 bspc rule -a Zathura state=tiled
+bspc rule -a Alacritty state=floating
 bspc rule -a '*:*:Picture-in-Picture' state=floating
+bspc rule -a Spotify state=floating
+
+bspc rule -a Transmission-gtk desktop='misc' follow=off
 
 fcitx -d &
 ~/.config/polybar/launch.sh &
-feh ~/Pictures/Wallpapers/bruegel.jpg --bg-fill &
-setxkbmap us &
-setxkbmap -option caps:escape,shift:both_capslock
+devour picom &
+feh ~/pictures/wallpapers/double_screen_sets/bamboo_colored_right.jpg ~/pictures/wallpapers/double_screen_sets/bamboo_colored_left.jpg --bg-fill &
+blueman-applet &
+flameshot &
+redshift -P -O 5000

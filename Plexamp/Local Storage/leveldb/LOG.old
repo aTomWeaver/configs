@@ -1,0 +1,21 @@
+2023/05/10-19:06:43.149 275d Reusing MANIFEST /home/tom/.config/Plexamp/Local Storage/leveldb/MANIFEST-000001
+2023/05/10-19:06:43.154 275d Recovering log #99
+2023/05/10-19:06:43.155 275d Reusing old log /home/tom/.config/Plexamp/Local Storage/leveldb/000099.log 
+2023/05/10-19:07:44.799 28da Level-0 table #103: started
+2023/05/10-19:07:44.803 28da Level-0 table #103: 16123 bytes OK
+2023/05/10-19:07:44.807 28da Delete type=0 #99
+2023/05/14-13:36:52.494 f24c Level-0 table #105: started
+2023/05/14-13:36:52.498 f24c Level-0 table #105: 18488 bytes OK
+2023/05/14-13:36:52.501 f24c Delete type=0 #102
+2023/05/17-06:38:45.434 1fb46 Level-0 table #107: started
+2023/05/17-06:38:45.438 1fb46 Level-0 table #107: 15816 bytes OK
+2023/05/17-06:38:45.442 1fb46 Delete type=0 #104
+2023/05/17-06:38:45.442 1fb46 Compacting 4@0 + 1@1 files
+2023/05/17-06:38:45.448 1fb46 Generated table #108@0: 10 keys, 14073 bytes
+2023/05/17-06:38:45.448 1fb46 Compacted 4@0 + 1@1 files => 14073 bytes
+2023/05/17-06:38:45.451 1fb46 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/05/17-06:38:45.451 1fb46 Delete type=2 #105
+2023/05/17-06:38:45.451 1fb46 Delete type=2 #100
+2023/05/17-06:38:45.451 1fb46 Delete type=2 #103
+2023/05/17-06:38:45.451 1fb46 Delete type=2 #98
+2023/05/17-06:38:45.451 1fb46 Delete type=2 #107

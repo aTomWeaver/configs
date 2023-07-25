@@ -3,8 +3,8 @@
 #
 
 # terminal emulator
-super + t
-	alacritty	
+super + Return
+	alacritty
 
 # program launcher
 super + @space
@@ -18,9 +18,8 @@ super + Escape
 super + b
 	firefox
 
-# nautilus
-#super + f
-#	nautilus
+super + v
+	clipmenu
 
 #
 # bspwm hotkeys
@@ -46,12 +45,14 @@ super + y
 super + g
 	bspc node -s biggest.window
 
+#super + v
+
 #
 # state/flags
 #
 
 # set the window state
-super + {n,shift + t,shift + s,f}
+super + {t,n,shift + s,f}
 	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
 # set the node flags
@@ -77,6 +78,12 @@ super + {_,shift + }c
 # focus the next/previous desktop in the current monitor
 super + bracket{left,right}
 	bspc desktop -f {prev,next}.local
+
+button9
+	bspc desktop -f next.local
+
+button8
+	bspc desktop -f prev.local
 
 # focus the last node/desktop
 super + {grave,Tab}
@@ -136,11 +143,32 @@ super + {Left,Down,Up,Right}
 super + s
 	spotify
 
-super + alt + ctrl + j
+XF86AudioPlay
   playerctl play-pause
 
-super + alt + ctrl + l
+XF86AudioNext
 	playerctl next
 
-super + alt + ctrl + h
+XF86AudioPrev
 	playerctl previous
+
+XF86AudioRaiseVolume
+	playerctl volume 0.05+
+
+XF86AudioLowerVolume
+	playerctl volume 0.05-
+
+XF86AudioMute
+	playerctl volume 0
+
+# color temperature
+ctrl + super + Up
+	redshift -P -O 6500
+
+ctrl + super + Down
+	redshift -P -O 5500
+
+
+# flameshot
+Print
+	flameshot gui
